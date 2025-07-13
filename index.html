@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+              .attribution { font-size: 11px; text-align: center; }
+              .attribution a { color: hsl(228, 45%, 44%); }
+        
+            * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', sans-serif;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+         background-color: #f5cf42;
+      }
+
+
+
+      .card {
+        background-color: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        width: 300px;
+        box-shadow: 10px 10px 0px #000;
+        transition: transform 0.3s ease;
+      }
+
+     
+
+      .card-img {
+        width: 100%;
+        height: auto;
+        width: 260px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+      }
+
+      .card-body {
+        padding: 20px;
+      }
+
+      .badge {
+        display: inline-block;
+        background-color: #f4d04e;
+        color: #111;
+        font-weight: bold;
+        font-size: 0.75rem;
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+
+      .date {
+        font-size: 0.75rem;
+        color: #666;
+        margin: 6px 0;
+      }
+
+      .title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .description {
+        font-size: 0.85rem;
+        color: #666;
+        margin-bottom: 15px;
+      }
+
+      .author {
+        display: flex;
+        align-items: center;
+      }
+
+      .avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+
+      .name {
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+    </style>
+
+    <body>
+      <div class="container">
+        <div class="card">
+          <img
+            src="./assets/images/illustration-article.svg"
+            alt="Card image"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <span class="badge">Learning</span>
+            <p class="date">Published 21 Dec 2023</p>
+            <h2 class="title">HTML & CSS foundations</h2>
+            <p class="description">
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+            <div class="author">
+              <img
+                src="./assets/images/image-avatar.webp"
+                alt="Avatar"
+                class="avatar"
+              />
+              <span class="name">Greg Hooper</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
+
+    
